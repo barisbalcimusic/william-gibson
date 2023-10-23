@@ -1,0 +1,111 @@
+/* COMMON */
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.menubar {
+  background-color: rgb(108, 151, 112);
+  height: 40px;
+}
+
+.menubox {
+  height: 100%;
+  display: inline-block;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.menubox:hover {
+  background-color: rgb(210, 190, 175);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+/* STARTSEITE */
+
+.container-startseite {
+  width: 70vw;
+  height: 100vh;
+  margin: 0px auto;
+  background-color: #aebeb2;
+  box-shadow: 0px 0px 4px 4px rgb(195, 195, 195);
+  border-radius: 2px;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 20px;
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.portrait1 {
+  border: solid 2px rgb(207, 238, 236);
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+.startseite-text {
+  background-color: rgb(235, 235, 235);
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgb(165, 165, 165);
+}
+
+/* BIOGRAFIE */
+
+.container-biografie {
+  width: 70vw;
+  height: max-content;
+  margin: 0px auto;
+  background-color: #aebeb2;
+  box-shadow: 0px 0px 4px 4px rgb(195, 195, 195);
+  border-radius: 2px;
+}
+
+.portrait2 {
+  border: solid 2px rgb(207, 238, 236);
+  margin: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+}
+
+article p {
+  margin: 20px;
+}
+
+/* WERKE */
+
+.container-werke {
+  width: 70vw;
+  height: max-content;
+  margin: 0px auto;
+  background-color: #aebeb2;
+  box-shadow: 0px 0px 4px 4px rgb(195, 195, 195);
+  border-radius: 2px;
+}
